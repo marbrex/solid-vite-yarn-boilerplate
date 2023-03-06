@@ -1,3 +1,12 @@
+# Disable Yarn Zero-Installs for the repository
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
 # Logs
 logs
 *.log
