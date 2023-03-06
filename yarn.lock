@@ -88,6 +88,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/node@npm:^18.14.6":
+  version: 18.14.6
+  resolution: "@types/node@npm:18.14.6"
+  checksum: 2f88f482cabadc6dbddd627a1674239e68c3c9beab56eb4ae2309fb96fd17fc3a509d99b0309bafe13b58529574f49ecf3a583f2ebe2896dd32fe4be436dc96e
+  languageName: node
+  linkType: hard
+
 "@types/semver@npm:^7.3.12":
   version: 7.3.13
   resolution: "@types/semver@npm:7.3.13"
@@ -434,6 +441,13 @@ __metadata:
     shebang-command: ^2.0.0
     which: ^2.0.1
   checksum: 671cc7c7288c3a8406f3c69a3ae2fc85555c04169e9d611def9a675635472614f1c0ed0ef80955d5b6d4e724f6ced67f0ad1bb006c2ea643488fcfef994d7f52
+  languageName: node
+  linkType: hard
+
+"csstype@npm:^3.1.0":
+  version: 3.1.1
+  resolution: "csstype@npm:3.1.1"
+  checksum: 1f7b4f5fdd955b7444b18ebdddf3f5c699159f13e9cf8ac9027ae4a60ae226aef9bbb14a6e12ca7dba3358b007cee6354b116e720262867c398de6c955ea451d
   languageName: node
   linkType: hard
 
@@ -1549,13 +1563,24 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "solid-chess@workspace:."
   dependencies:
+    "@types/node": ^18.14.6
     "@typescript-eslint/eslint-plugin": latest
     "@typescript-eslint/parser": latest
     eslint: ^8.35.0
     express: ^4.18.2
+    solid-js: ^1.6.12
     typescript: ^4.9.5
   languageName: unknown
   linkType: soft
+
+"solid-js@npm:^1.6.12":
+  version: 1.6.12
+  resolution: "solid-js@npm:1.6.12"
+  dependencies:
+    csstype: ^3.1.0
+  checksum: 57646ef409b9323e16640446fd2017464f53adc08496f3a6b359c13a37ee876e4435f294473ddb52213782393d13c22d56e7730c053794db9e4e7777bcb2dd8a
+  languageName: node
+  linkType: hard
 
 "statuses@npm:2.0.1":
   version: 2.0.1
