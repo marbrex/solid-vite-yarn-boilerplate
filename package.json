@@ -2,11 +2,19 @@
   "name": "solid-chess",
   "packageManager": "yarn@3.3.1",
   "type": "module",
+  "scripts": {
+    "start": "node src/server/index.js",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "latest",
     "@typescript-eslint/parser": "latest",
     "eslint": "^8.35.0",
-    "typescript": "^4.9.5"
+    "typescript": "^4.9.5",
+    "vite": "^4.1.4",
+    "vite-plugin-solid": "^2.6.1"
   },
   "dependencies": {
     "@types/node": "^18.14.6",
