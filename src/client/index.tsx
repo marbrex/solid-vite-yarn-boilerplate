@@ -1,5 +1,6 @@
 import { createSignal, onCleanup } from "solid-js";
 import { render } from "solid-js/web";
+import "./main.scss";
 
 const App = () => {
   const [count, setCount] = createSignal(0);

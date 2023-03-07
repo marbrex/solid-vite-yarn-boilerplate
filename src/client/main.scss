@@ -1,0 +1,12 @@
+@mixin flex($direction, $wrap, $jc, $ai) {
+  display: flex;
+  flex-direction: $direction;
+  flex-wrap: $wrap;
+  justify-content: $jc;
+  align-items: $ai;
+}
+
+body {
+  @include flex(column, nowrap, center, center);
+  background-color: darkolivegreen;
+}
