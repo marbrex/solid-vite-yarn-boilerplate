@@ -1,5 +1,5 @@
 {
-  "name": "solid-chess",
+  "name": "solid-vite-yarn-boilerplate",
   "packageManager": "yarn@3.3.1",
   "type": "module",
   "scripts": {

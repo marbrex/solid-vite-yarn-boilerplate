@@ -1,1 +1,1 @@
-# solid-chess
+# solid-vite-yarn-boilerplate
